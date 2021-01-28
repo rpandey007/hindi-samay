@@ -3163,7 +3163,7 @@ text-align: right;
 
 .mega-menu-flyout .last-col ul li a {
 color: #212529;
-font-size: 0;
+font-size: 18px;
 font-weight: bold;
 text-decoration: none;
 -webkit-transition: all 0.3s ease-in-out;
@@ -3173,7 +3173,9 @@ transition: all 0.3s ease-in-out;
 line-height: 1.9;
 text-align: right;
 }
-
+.mega-menu-flyout .social-bookmarks li a {
+    font-size: 0 !important;
+}
 .mega-menu-flyout .last-col ul li a:hover {
 color: #2d71a1;
 }
