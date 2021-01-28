@@ -3163,7 +3163,7 @@ text-align: right;
 
 .mega-menu-flyout .last-col ul li a {
 color: #212529;
-font-size: 18px;
+font-size: 0;
 font-weight: bold;
 text-decoration: none;
 -webkit-transition: all 0.3s ease-in-out;
