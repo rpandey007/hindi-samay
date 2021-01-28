@@ -3323,7 +3323,7 @@ border-right: 1px solid #2d71a1;
 }
 
 .mega-menu-flyout .social-bookmarks li.twitter a {
-  background: url("assets\img\twitter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("..\..\assets\img\twitter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 
 .social-bookmarks li.twitter a:hover {
