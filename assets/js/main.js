@@ -109,6 +109,7 @@
       margin: 0,
       autoplay: true,
       smartSpeed: 1000,
+	  transitionStyle : "fade"
     });
     $('.hero-section.with-slider').owlCarousel({
       center: true,
@@ -287,7 +288,8 @@ $(document).ready(function($) {
 						navigation : true,
 						items : dataNum,
 						itemsDesktop : [1199,dataNum2],
-						itemsDesktopSmall : [979,dataNum3]
+						itemsDesktopSmall : [979,dataNum3],
+						transitionStyle : "fade"
 					});
 
 				});
