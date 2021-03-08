@@ -1608,6 +1608,26 @@ div#hs_cos_wrapper_header_logo h1 a {
   display: flex;
   flex-wrap: wrap;
 }
+h3.section-heading {
+  font-size: 2rem;
+}
+.news-post-small-col .news-post.image-post.default-size {
+  min-height: 227px;
+  position: relative;
+  overflow: hidden;
+}
+
+.news-post-small-col .news-post.image-post.default-size img {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  width: 99%;
+  height: 99%;
+  z-index: -1;
+}
+.post-by-title-small ul li h3 {
+  font-size: calc(1.75rem - 30%);
+}
 @media (max-width:950px){
 .footer_social_links ul li {
 margin: 0 6px;
@@ -3031,12 +3051,14 @@ position: relative;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-padding: 188px 0;
+padding: 113px 0;
 text-align: center;
 padding-bottom: 153px;
 overflow: hidden
 }
-
+.banner-container {
+  max-width: 600px;
+}
 .banner .bottom-bg img {
 width: 100%
 }
