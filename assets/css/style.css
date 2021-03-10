@@ -3827,7 +3827,7 @@ article.new-featured-section h3 {
       }
   }
 *:focus{
-  outline: none im !important;
+  outline: none !important;
 }
 .slick-arrow {
   position: absolute;
@@ -4032,6 +4032,94 @@ article.hdUddaranSection h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
+}
+.hdUBlockBody blockquote ul a {
+  background: linear-gradient( -45deg , #f44336, #f44336);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.hdUBlockBody blockquote ul a:hover {
+  background: linear-gradient( 
+-45deg
+, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.news-post-inner-item {
+  margin: 0 15px;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+}
+
+.features-today-box {
+  margin: 0 -15px;
+}
+
+.features-today-box .news-post-inner-item .standard-post {
+  min-height: 254px;
+  padding: 20px 15px;
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.features-today-box .news-post-inner-item .standard-post .post-content {
+  padding-top: 25px;
+}
+
+.features-today-box .standard-post .post-content h2 {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 22px;
+  text-shadow: 2px 1px 0 rgb(0 0 0 / 50%);
+}
+
+.features-today-box .standard-post .post-content h2 a {
+  color: #fff !important;
+}
+.features-today-box .news-post a.category-post {
+  font-size: 14px;
+}
+
+.features-today-box .news-post-inner-item .standard-post .post-content ul.post-tags li {
+  font-size: 15px;
+}
+
+.features-today-box .news-post-inner-item .standard-post .post-content ul.post-tags li a {
+  color: rgb(255 71 0);
+}
+
+.features-today-box .news-post-inner-item .standard-post .post-content ul.post-tags li i {
+  color: rgb(255 71 0);
+}
+
+.features-today-box .news-post .post-gallery {
+  position: absolute;
+  top: 27px;
+}
+
+.features-today-box .news-post ul.post-tags {
+  position: absolute;
+  bottom: 20px;
+}
+.pt-img-1 {
+  background-image: url(../img/patternone.jpg);
+}
+.pt-img-2 {
+  background-image: url(../img/patterntwo.jpg);
+}
+.pt-img-3 {
+  background-image: url(../img/patternthree.jpg);
+}
+.pt-img-4 {
+  background-image: url(../img/patternfour.jpg);
 }
   @media screen and (min-width: 992px){
 
