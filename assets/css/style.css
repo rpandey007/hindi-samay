@@ -1800,7 +1800,8 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 width: 73px;
-height: 73px
+height: 73px;
+    padding: 7px;
 }
 
 .solution-icon-title {
