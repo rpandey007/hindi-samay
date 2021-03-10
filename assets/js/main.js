@@ -517,17 +517,26 @@ $('.demo3').easyTicker({
 
 
 
-$('.slick-slider-contauner').slick({
+$('.slick-fade-slider').slick({
   infinite: true,
   speed: 500,
   fade: true,
   cssEase: 'linear',
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
   adaptiveHeight: true
 });
+
+$('.nw-ft-slider-inner').slick({
+	infinite: true,
+	dots:false,
+	speed: 500,
+	fade: false,
+	cssEase: 'linear',
+	slidesToShow: 4,
+	slidesToScroll: 2,
+	adaptiveHeight: true
+  });
 
 
 $('.mega-menu-flyout .first-col ul li.hs-item-has-children > a').after('<div class="child-trigger"></div>')
