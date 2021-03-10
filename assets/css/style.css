@@ -1372,9 +1372,7 @@ width: 50%;
 }
 
 .custom-footer {
-background: linear-gradient(
-180deg
-, rgba(27, 29, 53,1.0) 59.28%, rgba(244, 121, 32,1.0) 184.19%);
+    background: #1b1d35;
 padding-top: 90px;
 padding-bottom: 50px;
 }
