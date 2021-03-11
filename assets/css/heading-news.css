@@ -1252,7 +1252,9 @@ div.block-content:after {
   margin: 0 5px 10px;
 }
 .grid-box {
-  margin-bottom: 15px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 .grid-box .news-post,
 .grid-box ul.list-posts {
@@ -7614,4 +7616,3 @@ ul.demo-list li a i {
 .rico-telegram:before {
   content: "\e99e";
 }
-
