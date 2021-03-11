@@ -4063,7 +4063,8 @@ article.hdUddaranSection h2 {
   background: linear-gradient( -45deg , #f44336, #f44336);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: block;
+  display: flex;
+  align-items: center;
   min-height: 90px;
 }
 
