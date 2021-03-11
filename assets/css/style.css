@@ -2185,9 +2185,18 @@ border-bottom: 0;
 }
 
 .post-by-title-small h3 a {
-background: linear-gradient( -45deg , #3db3c5, #274685);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: linear-gradient( 
+-45deg
+ , #3db3c5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0454b8;
+    font-size: 18px;
+    line-height: 22px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
 }
 
 .post-by-title-small h5 a:before {
