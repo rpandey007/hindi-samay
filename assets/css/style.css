@@ -1372,7 +1372,9 @@ width: 50%;
 }
 
 .custom-footer {
-  background: rgba(27, 29, 53,1.0);
+  background: linear-gradient(
+-45deg
+, #000000, #065526);
 padding-top: 90px;
 padding-bottom: 50px;
 }
@@ -1387,13 +1389,14 @@ flex-wrap: wrap;
 }
 
 .footer_top_logo_section {
-width: 40%;
+width: 100%;
 padding: 0 15px;
 }
 
 .footer_top_sitemap {
-width: 60%;
+width: 100%;
 padding: 0 15px;
+margin-top: 40px;
 }
 
 .footer_top_logo_section div#hs_cos_wrapper_header_logo img {
@@ -1511,7 +1514,16 @@ margin-bottom: 0;
 .footer_top_sitemap .hs-menu-wrapper > ul > li > ul > li {
 margin-bottom: 20px;
 }
+.footer_top_sitemap .hs-menu-wrapper > ul {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.footer_top_sitemap .hs-menu-wrapper > ul > li {
+  width: 50%;
+  padding: 0 15px;
+}
 .footer_bottom {
 display: flex;
 flex-wrap: wrap;
@@ -4289,6 +4301,78 @@ article.hdUddaranSection h2 {
   z-index: 5;
   position: relative;
 }
+.news-post-small-col .image-post .hover-box .inner-hover h2 a {
+  font-weight: 700;
+  background: linear-gradient( 
+-45deg
+, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  line-height: 1.4;
+  transition: all .2s ease;
+}
+
+.news-post-small-col .image-post .hover-box .inner-hover h2 a:hover {
+  background: linear-gradient( 
+-45deg
+, #fb0808, #fb971a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .new-featured-section .nw-ft-slides-content .nw-ft-slidesItemFooter span,
+  .new-featured-section .nw-ft-slides-content h3,
+  .nw-ft-slider-inner-outer .nw-ft-slides-content .CHCHSliderItemIcon,
+  .nw-ft-slider-inner-outer .nw-ft-slides-content h4 {
+      font-weight: 700;
+      background: linear-gradient( 
+  -45deg
+  , #3db3c5, #274685);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all .2s ease;
+  }
+  
+  .new-featured-section .nw-ft-slides-content h4, .new-featured-section .nw-ft-slides-content .nw-ft-slidesItemFooter h5{
+      font-weight: 700;
+      background: linear-gradient( 
+  -45deg
+  , #3db3c5, #031844);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all .2s ease;
+      line-height: 1.6;
+  }
+  
+  .post-by-category {
+      padding: 50px 0;
+  }
+  
+  .author-post-section {
+      padding: 50px 0;
+      padding-bottom: 0;
+  }
+  
+  .our-team-section {
+      padding: 50px 0;
+  }
+  
+  .section {
+      padding: 30px 0;
+  }
+  
+  .tabber-tab ul li a {
+      padding: 6px 30px;
+  }
+  
+  @media (min-width: 768px){
+    .row.tabber-content .col-md-6 {
+      -ms-flex: 0 0 70%;
+      flex: 0 0 70%;
+      max-width: 70%;
+  }
+
+  }
   @media screen and (min-width: 992px){
 
   }
