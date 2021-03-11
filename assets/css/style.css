@@ -4067,6 +4067,8 @@ article.hdUddaranSection h2 {
   align-items: center;
   min-height: 90px;
   width:100%;
+  text-align: center;
+  justify-content: center;
 }
 
 .hdUBlockBody blockquote ul a:hover {
