@@ -3253,6 +3253,12 @@ width: 100%;
 position: relative;
 }
 
+.mega-menu-flyout .first-col ul#navbar > li{
+  width: 30%;
+  margin-bottom: 10px;
+  margin-right: 3%;
+}
+
 .mega-menu-flyout .first-col ul ul {
 display: none;
 }
@@ -4102,7 +4108,7 @@ article.hdUddaranSection {
   font-size: 22px;
   background: linear-gradient( 
 -45deg
-, #3db3c5, #031844);
+, #883f09, #285904);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
