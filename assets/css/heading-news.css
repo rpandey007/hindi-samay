@@ -889,7 +889,7 @@ body.boxed #container {
 }
 */
 .title-section h5 span {
-  border-bottom: 1px solid #33a3f1;
+  border-bottom: 1px solid #f47920;
   display: inline-block;
   padding-bottom: 16px;
   padding-right: 5px;
@@ -3314,9 +3314,9 @@ ul.list-posts > li .post-content > a:hover {
 }
 ul.list-posts > li .post-content h2 {
   margin: 0 0 10px;
-  font-size: 24px;
+  font-size: 18px;
   overflow: hidden;
-  margin-bottom: 7px;
+  margin-bottom: 2px;
 }
 ul.list-posts > li .post-content h2 a {
   
