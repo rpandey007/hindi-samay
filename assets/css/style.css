@@ -4351,7 +4351,7 @@ article.hdUddaranSection {
       padding: 6px 30px;
   }
   .new-featured-section .nw-ft-slides:not(.slick-slide) .nw-ft-slides-content {
-    height: 136px;
+    height: 113px;
 }
 ul.post-tags li a {
   background: linear-gradient( 
@@ -4360,6 +4360,7 @@ ul.post-tags li a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 14px;
+  padding-right: 3px;
 }
 
 ul.post-tags li i {
