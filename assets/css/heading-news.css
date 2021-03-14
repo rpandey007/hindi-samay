@@ -838,16 +838,8 @@ body.boxed #container {
 .title-section h1,
 .title-section H5,
 .title-section H3 {
-  background: linear-gradient( 
--45deg
-, #3db3c5, #274685);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #0454b8;
-  font-size:24px;
-  line-height: 1.5;
-  font-weight: 700;
+  
   margin: 0 0 30px;
-  text-transform: uppercase;
   margin-bottom: -1px;
 }
 .post-by-title-small h3 a {
@@ -865,13 +857,13 @@ body.boxed #container {
   max-width: 100%;
 }
 
-.title-section h1 span {
+.title-section .heading span {
   display: inline-block;
   padding-bottom: 16px;
   padding-right: 5px;
   border-bottom: 1px solid #eee;
 }
-.title-section h1 span.world {
+.title-section .heading span.world {
   border-bottom: 1px solid #f44336;
 }
 /*
