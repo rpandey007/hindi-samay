@@ -842,18 +842,6 @@ body.boxed #container {
   margin-bottom: -1px;
 }
 .post-by-title-small h3 a {
-  background: linear-gradient( 
--45deg
-, #3db3c5, #274685);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #0454b8;
-  font-size: 18px;
-  line-height: 22px;
-  overflow: hidden;
-  display: block;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  max-width: 100%;
 }
 
 .title-section .heading span {
@@ -3188,23 +3176,19 @@ ul.post-tags li:last-child {
 .image-post2 {
   position: relative;
 }
-.image-post2 .hover-box {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-  display: block;
-}
+.image-post2 .hover-box {}
 .image-post2 .hover-box .inner-hover {
   position: absolute;
-  top: 50%;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
-  padding: 0 40px;
   text-align: center;
-  margin-top: -40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  z-index: 99;
+  background: rgb(4 46 62);
 }
 .image-post2 .hover-box a.category-post {
   position: relative;
@@ -3310,7 +3294,7 @@ ul.list-posts > li .post-content h2 {
   margin-bottom: 2px;
 }
 ul.list-posts > li .post-content h2 a {
-  
+  color: #042e3e;
 }
 ul.list-posts > li .post-content h2 a:hover {
   color: #f44336;
@@ -3833,14 +3817,8 @@ div.list-post .post-content h2 a:hover {
   background: rgba(51, 51, 51, 0.8);
 }
 .sidebar .image-post2 .hover-box {
-  position: static;
-  padding: 10px;
-  max-height: unset;
 }
 .sidebar .image-post2 .hover-box .inner-hover {
-  position: static;
-  max-height: unset;
-  margin-top: 0;
 }
 .sidebar .image-post2 .hover-box p {
   color: #fff;
@@ -6010,18 +5988,25 @@ ul.list-posts > li {
   background: #fff;
   box-shadow: rgb(236 236 236 / 50%) 0px 6px 32px 0px;
 }
-.image-post2 .hover-box {
-  max-height: 100px;
-  top: unset;
-  bottom: 0;
-  background: #e0b9b99e;
-  z-index: 9;
+.image-post2 .hover-box p {
+  margin-bottom: 0;
 }
 
+.image-post2 .hover-box .inner-hover p a {
+  color: #ff9143;
+  display: block;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
+}
 
 .image-post2 .hover-box h2 {
   font-size: 23px;
   line-height: 1.6;
+  margin: 0;
+}
+.image-post2 .hover-box p {
+  margin-bottom: 0;
 }
 
 section.heading-news .heading-news-box .image-post {
