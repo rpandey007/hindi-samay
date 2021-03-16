@@ -809,7 +809,6 @@ width: 100%;
 
 .site-navbar .site-logo {
 position: relative;
-font-size: 42px;
 text-shadow: 0px 7px 77px rgb(0 0 0 / 37%);
 background: linear-gradient(-45deg, #1F5E02, #97ff24, #F17C19);
 -webkit-background-clip: text;
@@ -1299,7 +1298,6 @@ width: 100%;
 
 .site-logo {
   position: relative;
-  font-size: 42px;
   text-shadow: 0px 7px 77px rgb(0 0 0 / 37%);
   background: linear-gradient(
 -45deg
