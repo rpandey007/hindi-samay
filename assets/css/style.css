@@ -1413,19 +1413,8 @@ color: #D66E24;
 }
 
 .footer_top_sitemap .hs-menu-wrapper > ul > li > ul > li > a {
-font-family: Averta;
-font-size: 18px;
-line-height: 1.9;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: #FAFAFA;
-pointer-events: none;
-margin-bottom: 0;
-background: linear-gradient( 
--45deg
-, #fb0808, #fb971a);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  color: #ff9143;
+  font-size: 20px;
 }
 
 .footer_top_sitemap .hs-menu-wrapper > ul > li > ul > li {
