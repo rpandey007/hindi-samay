@@ -1297,13 +1297,23 @@ flex-wrap: wrap;
 
 .footer_top_logo_section {
 width: 100%;
-padding: 0 15px;
+}
+
+.site-logo {
+  position: relative;
+  font-size: 42px;
+  text-shadow: 0px 7px 77px rgb(0 0 0 / 37%);
+  background: linear-gradient(
+-45deg
+, #1F5E02, #97ff24, #F17C19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .footer_top_sitemap {
 width: 100%;
 padding: 0 15px;
-margin-top: 40px;
+margin-top: 20px;
 }
 
 .footer_top_logo_section div#hs_cos_wrapper_header_logo img {
