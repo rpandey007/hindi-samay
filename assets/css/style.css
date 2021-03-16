@@ -3967,6 +3967,15 @@ article.hdUddaranSection {
 
 .features-today-box .standard-post .post-content h2 a {
 }
+.site-navbar h4.color-2 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.site-navbar  h5 {
+  font-weight: normal;
+}
 .features-today-box .news-post a.category-post {
   font-size: 14px;
 }
