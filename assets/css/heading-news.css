@@ -832,8 +832,7 @@ body.boxed #container {
   opacity: 1;
 }
 .title-section {
-  border-bottom: 1px solid #eee;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .title-section h1,
 .title-section H5,
